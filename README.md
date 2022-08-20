@@ -2,7 +2,7 @@
 
 The wine quality prediction project is essentially a kind of classification or regression task. The quality score range from 0 to 10, and the samples of normal wines are much more then the poor ones. The task aims to use these features to predict the quality score of the wine. 
 This dataset is also available from the UCI machine learning repository [https://archive.ics.uci.edu/ml/datasets/wine+quality]
-The dataset contains 11 physiochemical properties: fixed acidity (g[tartaric acid]/dm3),volatile acidity (g[acetic acid]/dm3), total sulfur dioxide (mg/dm3), chlorides (g[sodium chloride]/dm3), pH level, free sulfur dioxide (mg/dm3), density (g/cm3), residual sugar (g/dm3), citric acid (g/dm3), sulphates (g[potassium sulphate]/dm3), and alcohol (vol\%)
+The dataset contains 11 physiochemical properties: fixed acidity (g[tartaric acid]/dm3),volatile acidity (g[acetic acid]/dm3), total sulfur dioxide (mg/dm3), chlorides (g[sodium chloride]/dm3), pH level, free sulfur dioxide (mg/dm3), density (g/cm3), residual sugar (g/dm3), citric acid (g/dm3), sulphates (g[potassium sulphate]/dm3), and alcohol (vol\%).
 
 ## Data Analysis
 
@@ -27,7 +27,7 @@ We use PCA decomposition to test the importance of the random variables.
 
 ## Shapiro test: 
 
-The Shapiro test can inform whether the variables follow a normal distribution. After the Shapiro test, we can find out the density and ph features are more likely from a normal distribution.
+The Shapiro test can inform whether the variables follow a normal distribution. After the Shapiro test, we can find out the density and pH features are more likely from a normal distribution.
 
 ![avatar](https://github.com/shengnandi/Wine-Quality-Prediction-Using-Neural-Network/blob/main/picture/5.png)
 
