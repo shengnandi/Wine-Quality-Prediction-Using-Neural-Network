@@ -6,17 +6,23 @@ The dataset contains 11 physiochemical properties: fixed acidity (g[tartaric aci
 
 ## Data Analysis
 
-We conduct data visualization, correlation analysis, PCA analysis, and Shappiro test in File Code/
+We conduct data visualization, correlation analysis, PCA analysis, and Shapiro test in File Code/
 The result shown as following
 
-data visualization:
-![avatar](https://github.com/shengnandi/Machine-Learning-Project-Airbnb-Prediction-/blob/main/picture/1.png)
+Data visualization:
+![avatar](https://github.com/shengnandi/Wine-Quality-Prediction-Using-Neural-Network/blob/main/picture/2.png)
 
-correlation analysis:
+Correlation analysis:
+it indicates that there are some positive linear correlations between those variables. For example:  "Fixed acidity" and "Density" ,  "Fixed acidity" and "Citric acid", "Fixed acidity" and "pH", "Volatile acidity" and "Citric acid" ,"Total sulfur dioxide" and "Free sulfur dioxide"
+![avatar](https://github.com/shengnandi/Wine-Quality-Prediction-Using-Neural-Network/blob/main/picture/1.png)
 
-PCA analysis:
+PCA analysis: we use PCA decomposition to test the importance of the random variables.
+![avatar](https://github.com/shengnandi/Wine-Quality-Prediction-Using-Neural-Network/blob/main/picture/3.png)
 
-Shappiro test: 
+Shapiro test: 
+The Shapiro test can inform whether the variables follow a normal distribution. After the Shapiro test, we can find out the density and ph features are more likely from a normal distribution.
+![avatar](https://github.com/shengnandi/Wine-Quality-Prediction-Using-Neural-Network/blob/main/picture/4.png)
+![avatar](https://github.com/shengnandi/Wine-Quality-Prediction-Using-Neural-Network/blob/main/picture/5.png)
 
 
 ## Model Training
