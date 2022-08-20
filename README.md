@@ -23,18 +23,18 @@ It indicates that there are some positive linear correlations between those vari
 We use PCA decomposition to test the importance of the random variables.
 
 ![avatar](https://github.com/shengnandi/Wine-Quality-Prediction-Using-Neural-Network/blob/main/picture/3.png)
+![avatar](https://github.com/shengnandi/Wine-Quality-Prediction-Using-Neural-Network/blob/main/picture/4.png)
 
 ## Shapiro test: 
 
 The Shapiro test can inform whether the variables follow a normal distribution. After the Shapiro test, we can find out the density and ph features are more likely from a normal distribution.
 
-![avatar](https://github.com/shengnandi/Wine-Quality-Prediction-Using-Neural-Network/blob/main/picture/4.png)
 ![avatar](https://github.com/shengnandi/Wine-Quality-Prediction-Using-Neural-Network/blob/main/picture/5.png)
 
 
 ## Result Comparison 
 
-Here we use Accuracy, 
+Here we use Accuracy, Precision, Recall, F1-Score, ROC-AUC to measure the performance.
 
 ![avatar](https://github.com/shengnandi/Wine-Quality-Prediction-Using-Neural-Network/blob/main/picture/6.png)
 ![avatar](https://github.com/shengnandi/Wine-Quality-Prediction-Using-Neural-Network/blob/main/picture/7.png)
